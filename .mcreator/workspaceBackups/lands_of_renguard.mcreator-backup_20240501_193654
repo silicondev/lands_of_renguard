@@ -1,0 +1,120 @@
+{
+  "mod_elements": [
+    {
+      "name": "Excalibur",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/landsofrenguard/item/ExcaliburItem.java",
+          "src/main/resources/assets/lands_of_renguard/models/item/excalibur.json"
+        ]
+      },
+      "path": "~/Items/Weapons"
+    },
+    {
+      "name": "WeaponsTab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapons_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/UI/Creative Tabs"
+    },
+    {
+      "name": "MobsTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mobs_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/UI/Creative Tabs"
+    },
+    {
+      "name": "Shade",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lands_of_renguard/models/item/shade_spawn_egg.json",
+          "src/main/java/net/mcreator/landsofrenguard/entity/ShadeEntity.java",
+          "src/main/java/net/mcreator/landsofrenguard/client/renderer/ShadeRenderer.java",
+          "src/main/resources/data/lands_of_renguard/forge/biome_modifier/shade_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Hostile"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item_group.lands_of_renguard.mobs_tab": "Mobs",
+      "entity.lands_of_renguard.shade": "Shade",
+      "item.lands_of_renguard.excalibur": "Excalibur",
+      "item.lands_of_renguard.shade_spawn_egg": "Shade Spawn Egg",
+      "item_group.lands_of_renguard.weapons_tab": "Weapons Tab"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Weapons",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "UI",
+        "children": [
+          {
+            "name": "Creative Tabs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "Hostile",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "lands_of_renguard",
+    "modName": "Lands of Renguard",
+    "version": "1.0.0",
+    "author": "jsims, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.landsofrenguard"
+  },
+  "mcreatorVersion": 202400117319
+}

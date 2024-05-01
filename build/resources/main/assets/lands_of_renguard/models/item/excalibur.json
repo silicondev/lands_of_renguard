@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lands_of_renguard:item/excalibur"
+  }
+}
